@@ -1,5 +1,4 @@
 name: Build DS3622xs+ 6.2.4-25556 For UNAS_NS202
-
 on:
   schedule:
     - cron: '0 18 * * *'
