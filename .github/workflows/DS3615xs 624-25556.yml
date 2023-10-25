@@ -1,4 +1,4 @@
-name: Build DS1819+ 6.2.4-25556 For UNAS_NS202
+name: Build FS2500 6.2.4-25556 For UNAS_NS202
 on:
   schedule:
     - cron: '0 18 * * *'
@@ -17,7 +17,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - platform: DS1819+
+          - platform: FS2500
             version: 6.2.4-25556
             machine: UNAS_NS202
             user: chenxudong2020
