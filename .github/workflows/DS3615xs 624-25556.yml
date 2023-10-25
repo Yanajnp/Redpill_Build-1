@@ -1,4 +1,4 @@
-name: Build DS3615xs 6.2.4-25556 For UNAS_NS202
+name: Build DS2422+ 6.2.4-25556 For UNAS_NS202
 on:
   schedule:
     - cron: '0 18 * * *'
@@ -17,7 +17,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - platform: DS3615xs
+          - platform: DS2422+
             version: 6.2.4-25556
             machine: UNAS_NS202
             user: chenxudong2020
